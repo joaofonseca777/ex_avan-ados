@@ -36,7 +36,5 @@ print ("são brancos: ", B*100/A, "%")
 #9-
 salario = float(input ("Informe seu salario mensal: "))
 reajuste= float(input ("Informe o reajuste: "))
-new_salario = salario + ((reajuste*100)/salario)
-print ("seu novo salario é: " ,new_salario)
-
-
+new_salario=((reajuste/100)*salario)+salario
+print ("seu novo salario :",new_salario)
